@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.urls import re_path
 
-import views
+from . import views
 
 urlpatterns = [
     re_path(r'^installed/$', views.installed, name='django-atlassian-installed'),
