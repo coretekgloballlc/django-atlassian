@@ -14,7 +14,7 @@ from django.views.generic.base import TemplateView
 from django.core.exceptions import ImproperlyConfigured
 from django.template import engines
 
-from models.connect import SecurityContext
+from .models.connect import SecurityContext
 
 @csrf_exempt
 def installed(request):
