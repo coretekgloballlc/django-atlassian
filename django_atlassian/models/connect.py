@@ -18,7 +18,7 @@ class SecurityContext(models.base.Model):
     shared_secret = models.CharField(max_length=512, null=False, blank=False)
     key = models.CharField(max_length=512, null=False, blank=False)
     client_key = models.CharField(max_length=512, null=False, blank=False)
-    host = models.CharField(max_length=512, null=False, blank=False)
+    host = models.CharField(max_length=512, uniquq=True, null=False, blank=False)
     product_type = models.CharField(max_length=512, null=False, blank=False)
     oauth_client_id = models.CharField(max_length=512, null=True, blank=True)
 
