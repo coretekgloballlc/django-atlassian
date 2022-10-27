@@ -7,7 +7,7 @@ import importlib
 import json
 import requests
 import re
-import collections
+import collections.abc as collections
 import os
 import copy
 
