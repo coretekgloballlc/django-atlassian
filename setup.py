@@ -24,7 +24,7 @@ setup(
         "atlassian-jwt >= 1.8.1",
         "requests >= 2.18.4",
         "requests-jwt==0.5.3",
-        "git+https://github.com/fluendo/jira.git"
+        "jira @ git+https://github.com/fluendo/jira.git"
     ],
     classifiers=[
             'Environment :: Web Environment',
